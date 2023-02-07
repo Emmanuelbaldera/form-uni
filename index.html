@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Students Word</title>
+	<link rel="stylesheet" type="text/css" href="../form-uni/style.css">
+</head>
+<body>
+<section class="cuadro">
+	<div class="div-flex-unir">
+		<div>
+			<h2>Form</h2>
+		</div>
+		<div class="margen-figma">
+			<ul>
+				<li>
+					<a href="https://www.figma.com/file/Rt1ZrbFchnsYK0eEiX4RBR/Untitled?node-id=0%3A1&t=wtLTKi3tFJ6PQvK6-1">Figma</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<form action="formulario.html" method="get">
+		<div>
+			<label for="name" class="cambio">Name</label>
+				<input type="text" id="name" placeholder="Enter your name" name="name">
+			<label for="email" class="cambio">Email</label>
+				<input type="text" id="email" placeholder="Enter your email" name="email">
+			<label for="age" class="cambio">Age</label>
+					<input type="text" id="age" placeholder="Enter your age" name="age">
+		</div>
+		<div class="size-div">
+			<label class="cambio">Which option best describes you?</label>
+				<select>
+					<option value="students">Student</option>
+					<option value="intern">Intern</option>
+					<option value="professional">Professional</option>
+					<option value="other">Other</option>
+				</select>
+		</div>
+		<div class="size-div">
+			<label class="cambio">Would your recommend this college a friend?</label>
+			<label for="yes">
+				<input type="radio" id="yes" name="radiobottom" value="yes">
+					Yes</label>
+			<label for="no">
+				<input type="radio" id="no" name="radiobottom" value="no">
+					No</label>
+			<label for="maybe">
+				<input type="radio" id="maybe" name="radiobottom" value="maybe">
+					Maybe</label>
+		</div>
+		<div class="size-div">
+			<label>Languages and Frameworks known <label class="size-small">(Check all that apply)</label></label>
+			<div>
+				<label for="c">
+					<input type="checkbox" id="c" name="c">
+					C</label>
+				<label for="c++">
+					<input type="checkbox" id="c++" name="c++">
+					C ++</label>
+				<label for="php">
+					<input type="checkbox" id="php" name="php">
+						PHP</label>
+				<label for="label">
+					<input type="checkbox" id="larabel" name="larabel">
+						Laravel</label>
+				<label for="code">
+					<input type="checkbox" id="code" name="code">
+						Codeigniter</label>
+				<label for="react">
+					<input type="checkbox" id="react" name="react">
+						React</label>
+				<label for="javascript">
+					<input type="checkbox" id="javascript" name="javascript">
+						JavaScript</label>
+				<label for="angular">
+					<input type="checkbox" id="angular" name="angular">
+						Angular</label>
+				<label for="django">
+					<input type="checkbox" id="django" name="django">
+						Django</label>
+				<label for="spring">
+					<input type="checkbox" id="spring" name="spring">
+						Spring</label>
+			</div>
+		</div>
+			<div class="size-div">	
+				<label for="comments">Any commets or suggestinos</label>
+					<textarea id="comments" name="commets"></textarea>
+					<input type="Submit" name="submit" value="Submit">
+			</div>
+	</form>
+</section>
+</body>
+</html>
